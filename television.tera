@@ -1,0 +1,32 @@
+---
+whiskers:
+  version: 2.5.0
+  matrix:
+    - flavor
+    - accent
+  filename: "themes/catppuccin-{{ flavor.identifier }}-{{ accent }}.toml"
+  hex_format: "#{{r}}{{g}}{{b}}{{z}}"
+---
+{%- set accent = flavor.colors[accent] -%}
+
+# general
+background = '{{ base.hex }}'
+border_fg = '{{ surface1.hex }}'
+text_fg = '{{ text.hex }}'
+dimmed_text_fg = '{{ overlay0.hex }}'
+# input
+input_text_fg = '{{ accent.hex }}'
+result_count_fg = '{{ accent.hex }}'
+# results
+result_name_fg = '{{ blue.hex }}'
+result_line_number_fg = '{{ yellow.hex }}'
+result_value_fg = '{{ lavender.hex }}'
+selection_bg = '{{ surface0.hex }}'
+match_fg = '{{ green.hex }}'
+# preview
+preview_title_fg = '{{ accent.hex }}'
+# modes
+channel_mode_fg = '{{ accent.hex }}'
+remote_control_mode_fg = '{{ green.hex }}'
+send_to_channel_mode_fg = '{{ sky.hex }}'
+
