@@ -21,12 +21,13 @@ result_count_fg = '{{ accent.hex }}'
 result_name_fg = '{{ blue.hex }}'
 result_line_number_fg = '{{ yellow.hex }}'
 result_value_fg = '{{ lavender.hex }}'
+selection_fg = '{{ green.hex }}'
 selection_bg = '{{ surface0.hex }}'
 match_fg = '{{ green.hex }}'
 # preview
 preview_title_fg = '{{ accent.hex }}'
 # modes
-channel_mode_fg = '{{ accent.hex }}'
-remote_control_mode_fg = '{{ green.hex }}'
-send_to_channel_mode_fg = '{{ sky.hex }}'
-
+channel_mode_fg = '{{ base.hex }}'
+channel_mode_bg = '{{ accent.hex }}'
+remote_control_mode_fg = '{{ base.hex }}'
+remote_control_mode_bg = '{{ green.hex }}'

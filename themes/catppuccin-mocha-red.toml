@@ -10,12 +10,13 @@ result_count_fg = '#f38ba8'
 result_name_fg = '#89b4fa'
 result_line_number_fg = '#f9e2af'
 result_value_fg = '#b4befe'
+selection_fg = '#a6e3a1'
 selection_bg = '#313244'
 match_fg = '#a6e3a1'
 # preview
 preview_title_fg = '#f38ba8'
 # modes
-channel_mode_fg = '#f38ba8'
-remote_control_mode_fg = '#a6e3a1'
-send_to_channel_mode_fg = '#89dceb'
-
+channel_mode_fg = '#1e1e2e'
+channel_mode_bg = '#f38ba8'
+remote_control_mode_fg = '#1e1e2e'
+remote_control_mode_bg = '#a6e3a1'
